@@ -47,36 +47,25 @@ F 3 "~" H 1700 3550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR04
-U 1 1 60C91B5C
-P 1700 3700
-F 0 "#PWR04" H 1700 3450 50  0001 C CNN
-F 1 "GND" H 1705 3527 50  0000 C CNN
-F 2 "" H 1700 3700 50  0001 C CNN
-F 3 "" H 1700 3700 50  0001 C CNN
-	1    1700 3700
-	1    0    0    -1  
-$EndComp
-$Comp
 L Amplifier_Operational:TL072 U1
 U 1 1 60C922E5
-P 2100 3300
-F 0 "U1" H 2100 2933 50  0000 C CNN
-F 1 "TL072" H 2100 3024 50  0000 C CNN
-F 2 "Package_DIP:DIP-8_W7.62mm" H 2100 3300 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 2100 3300 50  0001 C CNN
-	1    2100 3300
+P 4750 3050
+F 0 "U1" H 4750 2683 50  0000 C CNN
+F 1 "TL072" H 4750 2774 50  0000 C CNN
+F 2 "Package_DIP:DIP-8_W7.62mm" H 4750 3050 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 4750 3050 50  0001 C CNN
+	1    4750 3050
 	1    0    0    1   
 $EndComp
 $Comp
 L Amplifier_Operational:TL072 U1
 U 2 1 60C94D46
-P 4750 3050
-F 0 "U1" H 4750 3417 50  0000 C CNN
-F 1 "TL072" H 4750 3326 50  0000 C CNN
-F 2 "Package_DIP:DIP-8_W7.62mm" H 4750 3050 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 4750 3050 50  0001 C CNN
-	2    4750 3050
+P 2100 3300
+F 0 "U1" H 2100 3667 50  0000 C CNN
+F 1 "TL072" H 2100 3576 50  0000 C CNN
+F 2 "Package_DIP:DIP-8_W7.62mm" H 2100 3300 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 2100 3300 50  0001 C CNN
+	2    2100 3300
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -398,12 +387,12 @@ Connection ~ 3250 1400
 $Comp
 L Amplifier_Operational:TL072 U3
 U 1 1 60D072A8
-P 7150 3150
-F 0 "U3" H 7150 2783 50  0000 C CNN
-F 1 "TL072" H 7150 2874 50  0000 C CNN
-F 2 "Package_DIP:DIP-8_W7.62mm" H 7150 3150 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 7150 3150 50  0001 C CNN
-	1    7150 3150
+P 8550 3250
+F 0 "U3" H 8550 2883 50  0000 C CNN
+F 1 "TL072" H 8550 2974 50  0000 C CNN
+F 2 "Package_DIP:DIP-8_W7.62mm" H 8550 3250 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 8550 3250 50  0001 C CNN
+	1    8550 3250
 	1    0    0    1   
 $EndComp
 $Comp
@@ -884,7 +873,7 @@ U 1 1 6117C2F3
 P 6100 5950
 F 0 "D5" V 5650 5900 50  0000 L CNN
 F 1 "1N4742" V 5750 5800 50  0000 L CNN
-F 2 "Diode_THT:D_5W_P10.16mm_Horizontal" H 6100 5950 50  0001 C CNN
+F 2 "Diode_THT:D_DO-34_SOD68_P7.62mm_Horizontal" H 6100 5950 50  0001 C CNN
 F 3 "~" H 6100 5950 50  0001 C CNN
 	1    6100 5950
 	0    -1   1    0   
@@ -927,7 +916,7 @@ U 1 1 6126CF0F
 P 3000 6750
 F 0 "D2" H 3000 6967 50  0000 C CNN
 F 1 "1N4001" H 3000 6876 50  0000 C CNN
-F 2 "Diode_THT:D_5W_P10.16mm_Horizontal" H 3000 6750 50  0001 C CNN
+F 2 "Diode_THT:D_DO-34_SOD68_P10.16mm_Horizontal" H 3000 6750 50  0001 C CNN
 F 3 "~" H 3000 6750 50  0001 C CNN
 	1    3000 6750
 	1    0    0    -1  
@@ -944,7 +933,7 @@ U 1 1 612A7FA7
 P 2450 6750
 F 0 "D1" H 2450 6967 50  0000 C CNN
 F 1 "1N4001" H 2450 6876 50  0000 C CNN
-F 2 "Diode_THT:D_5W_P10.16mm_Horizontal" H 2450 6750 50  0001 C CNN
+F 2 "Diode_THT:D_DO-34_SOD68_P10.16mm_Horizontal" H 2450 6750 50  0001 C CNN
 F 3 "~" H 2450 6750 50  0001 C CNN
 	1    2450 6750
 	1    0    0    -1  
@@ -1047,12 +1036,12 @@ Connection ~ 5300 5700
 $Comp
 L Amplifier_Operational:TL072 U3
 U 2 1 60D097BC
-P 8550 3250
-F 0 "U3" H 8500 2800 50  0000 C CNN
-F 1 "TL072" H 8500 2900 50  0000 C CNN
-F 2 "Package_DIP:DIP-8_W7.62mm" H 8550 3250 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 8550 3250 50  0001 C CNN
-	2    8550 3250
+P 7150 3150
+F 0 "U3" H 7100 2700 50  0000 C CNN
+F 1 "TL072" H 7100 2800 50  0000 C CNN
+F 2 "Package_DIP:DIP-8_W7.62mm" H 7150 3150 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 7150 3150 50  0001 C CNN
+	2    7150 3150
 	1    0    0    1   
 $EndComp
 Text Label 4850 6250 2    50   ~ 0
@@ -1157,9 +1146,6 @@ F 3 "" H 3850 6400 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2700 5800 2700 6750
-Connection ~ 3100 5800
-Wire Wire Line
-	3100 5800 3450 5800
 NoConn ~ 4250 5900
 NoConn ~ 4250 6100
 Wire Wire Line
@@ -1317,21 +1303,6 @@ F 3 "~" H 1850 6900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:AudioJack2 PWR1
-U 1 1 61A571D6
-P 6600 5800
-F 0 "PWR1" H 6650 5500 50  0000 R CNN
-F 1 "AudioJack2" H 6800 5600 50  0000 R CNN
-F 2 "Connector_BarrelJack:BarrelJack_Wuerth_6941xx301002" H 6600 5800 50  0001 C CNN
-F 3 "~" H 6600 5800 50  0001 C CNN
-	1    6600 5800
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	6300 6200 6300 5800
-Wire Wire Line
-	6300 5800 6400 5800
-$Comp
 L Device:C C13
 U 1 1 60DA3D40
 P 5300 3050
@@ -1405,7 +1376,7 @@ U 1 1 6161B08C
 P 4250 1850
 F 0 "D3_ON1" H 4243 2067 50  0000 C CNN
 F 1 "LED" H 4243 1976 50  0000 C CNN
-F 2 "Diode_THT:D_5W_P5.08mm_Vertical_KathodeUp" H 4250 1850 50  0001 C CNN
+F 2 "LED_THT:LED_D3.0mm_Clear" H 4250 1850 50  0001 C CNN
 F 3 "~" H 4250 1850 50  0001 C CNN
 	1    4250 1850
 	-1   0    0    1   
@@ -1573,9 +1544,31 @@ U 1 1 61235DB3
 P 5200 1850
 F 0 "D4_OFF1" H 5200 2000 50  0000 C CNN
 F 1 "LED" H 5200 2100 50  0000 C CNN
-F 2 "Diode_THT:D_5W_P5.08mm_Vertical_KathodeUp" H 5200 1850 50  0001 C CNN
+F 2 "LED_THT:LED_D3.0mm_Clear" H 5200 1850 50  0001 C CNN
 F 3 "~" H 5200 1850 50  0001 C CNN
 	1    5200 1850
 	-1   0    0    1   
 $EndComp
+$Comp
+L Connector:Barrel_Jack PWR1
+U 1 1 60E46D62
+P 6700 5800
+F 0 "PWR1" H 6470 5850 50  0000 R CNN
+F 1 "Barrel_Jack" H 6470 5759 50  0000 R CNN
+F 2 "Connector_BarrelJack:BarrelJack_Wuerth_6941xx301002" H 6750 5760 50  0001 C CNN
+F 3 "~" H 6750 5760 50  0001 C CNN
+	1    6700 5800
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6300 6200 6300 5900
+Wire Wire Line
+	6300 5900 6400 5900
+Text Label 1700 3800 3    50   ~ 0
++4.5V
+Wire Wire Line
+	1700 3800 1700 3700
+Connection ~ 3100 5800
+Wire Wire Line
+	3100 5800 3450 5800
 $EndSCHEMATC

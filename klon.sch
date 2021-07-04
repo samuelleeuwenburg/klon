@@ -180,7 +180,7 @@ U 1 1 60CBA9B6
 P 3350 4800
 F 0 "GAIN_1" H 3281 4846 50  0000 R CNN
 F 1 "100K" H 3281 4755 50  0000 R CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_2x03_P1.27mm_Vertical" H 3350 4800 50  0001 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Alpha_RD902F-40-00D_Dual_Vertical_CircularHoles" H 3350 4800 50  0001 C CNN
 F 3 "~" H 3350 4800 50  0001 C CNN
 	1    3350 4800
 	1    0    0    -1  
@@ -445,7 +445,7 @@ U 1 1 60D788AD
 P 7700 2500
 F 0 "TONE1" H 7631 2546 50  0000 R CNN
 F 1 "10K" H 7631 2455 50  0000 R CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_1x03_P1.27mm_Vertical" H 7700 2500 50  0001 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_CircularHoles" H 7700 2500 50  0001 C CNN
 F 3 "~" H 7700 2500 50  0001 C CNN
 	1    7700 2500
 	1    0    0    -1  
@@ -553,7 +553,7 @@ U 1 1 60DBED2B
 P 9500 3500
 F 0 "VOL1" H 9431 3546 50  0000 R CNN
 F 1 "10K" H 9431 3455 50  0000 R CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_1x03_P1.27mm_Vertical" H 9500 3500 50  0001 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_CircularHoles" H 9500 3500 50  0001 C CNN
 F 3 "~" H 9500 3500 50  0001 C CNN
 	1    9500 3500
 	1    0    0    1   
@@ -638,23 +638,23 @@ $EndComp
 $Comp
 L Device:R R32
 U 1 1 60E3FE02
-P 10450 3800
-F 0 "R32" H 10520 3846 50  0000 L CNN
-F 1 "100K" H 10520 3755 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 10380 3800 50  0001 C CNN
-F 3 "~" H 10450 3800 50  0001 C CNN
-	1    10450 3800
+P 10500 3850
+F 0 "R32" H 10570 3896 50  0000 L CNN
+F 1 "100K" H 10570 3805 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 10430 3850 50  0001 C CNN
+F 3 "~" H 10500 3850 50  0001 C CNN
+	1    10500 3850
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR017
 U 1 1 60E40ABE
-P 10450 3950
-F 0 "#PWR017" H 10450 3700 50  0001 C CNN
-F 1 "GND" H 10455 3777 50  0000 C CNN
-F 2 "" H 10450 3950 50  0001 C CNN
-F 3 "" H 10450 3950 50  0001 C CNN
-	1    10450 3950
+P 10500 4000
+F 0 "#PWR017" H 10500 3750 50  0001 C CNN
+F 1 "GND" H 10505 3827 50  0000 C CNN
+F 2 "" H 10500 4000 50  0001 C CNN
+F 3 "" H 10500 4000 50  0001 C CNN
+	1    10500 4000
 	1    0    0    -1  
 $EndComp
 Connection ~ 5750 3050
@@ -795,28 +795,6 @@ Wire Wire Line
 	9850 3850 9700 3850
 Wire Wire Line
 	10150 3850 10300 3850
-$Comp
-L Connector:AudioJack2 OUT1
-U 1 1 60F6182B
-P 10700 3400
-F 0 "OUT1" H 10750 3100 50  0000 R CNN
-F 1 "AudioJack2" H 10900 3200 50  0000 R CNN
-F 2 "Connector_Audio:Jack_6.35mm_Neutrik_NMJ4HFD2_Horizontal" H 10700 3400 50  0001 C CNN
-F 3 "~" H 10700 3400 50  0001 C CNN
-	1    10700 3400
-	-1   0    0    1   
-$EndComp
-$Comp
-L Connector:AudioJack2 IN1
-U 1 1 60F62CED
-P 900 3400
-F 0 "IN1" H 900 3100 50  0000 C CNN
-F 1 "AudioJack2" H 900 3200 50  0000 C CNN
-F 2 "Connector_Audio:Jack_6.35mm_Neutrik_NMJ4HFD2_Horizontal" H 900 3400 50  0001 C CNN
-F 3 "~" H 900 3400 50  0001 C CNN
-	1    900  3400
-	1    0    0    1   
-$EndComp
 Wire Wire Line
 	7550 3150 7700 3150
 Connection ~ 7550 3150
@@ -824,16 +802,16 @@ Connection ~ 7700 3150
 $Comp
 L power:GND #PWR01
 U 1 1 610974EE
-P 1100 3750
-F 0 "#PWR01" H 1100 3500 50  0001 C CNN
-F 1 "GND" H 1105 3577 50  0000 C CNN
-F 2 "" H 1100 3750 50  0001 C CNN
-F 3 "" H 1100 3750 50  0001 C CNN
-	1    1100 3750
+P 1100 3850
+F 0 "#PWR01" H 1100 3600 50  0001 C CNN
+F 1 "GND" H 1105 3677 50  0000 C CNN
+F 2 "" H 1100 3850 50  0001 C CNN
+F 3 "" H 1100 3850 50  0001 C CNN
+	1    1100 3850
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1100 3750 1100 3500
+	1100 3850 1100 3600
 Wire Wire Line
 	1700 3400 1800 3400
 Connection ~ 1700 3400
@@ -850,10 +828,6 @@ Wire Wire Line
 	6850 3050 6650 3050
 Connection ~ 6850 3050
 Connection ~ 9700 2950
-Wire Wire Line
-	10500 3500 10450 3500
-Wire Wire Line
-	10450 3500 10450 3650
 Wire Wire Line
 	10300 3400 10500 3400
 $Comp
@@ -1461,7 +1435,7 @@ U 2 1 60CB9AA2
 P 3550 3600
 F 0 "GAIN_1" H 3480 3554 50  0000 R CNN
 F 1 "100K" H 3480 3645 50  0000 R CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_2x03_P1.27mm_Vertical" H 3550 3600 50  0001 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Alpha_RD902F-40-00D_Dual_Vertical_CircularHoles" H 3550 3600 50  0001 C CNN
 F 3 "~" H 3550 3600 50  0001 C CNN
 	2    3550 3600
 	-1   0    0    -1  
@@ -1571,4 +1545,34 @@ Wire Wire Line
 Connection ~ 3100 5800
 Wire Wire Line
 	3100 5800 3450 5800
+$Comp
+L Connector:AudioJack3 IN1
+U 1 1 60E29C1F
+P 900 3500
+F 0 "IN1" H 850 3200 50  0000 R CNN
+F 1 "AudioJack3" H 1000 3100 50  0000 R CNN
+F 2 "Connector_Audio:Jack_6.35mm_Neutrik_NMJ6HFD2_Horizontal" H 900 3500 50  0001 C CNN
+F 3 "~" H 900 3500 50  0001 C CNN
+	1    900  3500
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	1100 3600 1100 3500
+Connection ~ 1100 3600
+$Comp
+L Connector:AudioJack3 OUT1
+U 1 1 60E7EA09
+P 10700 3500
+F 0 "OUT1" H 10750 3100 50  0000 R CNN
+F 1 "AudioJack3" H 10800 3200 50  0000 R CNN
+F 2 "Connector_Audio:Jack_6.35mm_Neutrik_NMJ6HFD2_Horizontal" H 10700 3500 50  0001 C CNN
+F 3 "~" H 10700 3500 50  0001 C CNN
+	1    10700 3500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	10500 3500 10500 3600
+Wire Wire Line
+	10500 3600 10500 3700
+Connection ~ 10500 3600
 $EndSCHEMATC

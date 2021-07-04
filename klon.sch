@@ -49,23 +49,23 @@ $EndComp
 $Comp
 L Amplifier_Operational:TL072 U1
 U 1 1 60C922E5
-P 4750 3050
-F 0 "U1" H 4750 2683 50  0000 C CNN
-F 1 "TL072" H 4750 2774 50  0000 C CNN
-F 2 "Package_DIP:DIP-8_W7.62mm" H 4750 3050 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 4750 3050 50  0001 C CNN
-	1    4750 3050
+P 2100 3300
+F 0 "U1" H 2100 2933 50  0000 C CNN
+F 1 "TL072" H 2100 3024 50  0000 C CNN
+F 2 "Package_DIP:DIP-8_W7.62mm" H 2100 3300 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 2100 3300 50  0001 C CNN
+	1    2100 3300
 	1    0    0    1   
 $EndComp
 $Comp
 L Amplifier_Operational:TL072 U1
 U 2 1 60C94D46
-P 2100 3300
-F 0 "U1" H 2100 3667 50  0000 C CNN
-F 1 "TL072" H 2100 3576 50  0000 C CNN
-F 2 "Package_DIP:DIP-8_W7.62mm" H 2100 3300 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 2100 3300 50  0001 C CNN
-	2    2100 3300
+P 4750 3050
+F 0 "U1" H 4750 3417 50  0000 C CNN
+F 1 "TL072" H 4750 3326 50  0000 C CNN
+F 2 "Package_DIP:DIP-8_W7.62mm" H 4750 3050 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 4750 3050 50  0001 C CNN
+	2    4750 3050
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -387,12 +387,12 @@ Connection ~ 3250 1400
 $Comp
 L Amplifier_Operational:TL072 U3
 U 1 1 60D072A8
-P 8550 3250
-F 0 "U3" H 8550 2883 50  0000 C CNN
-F 1 "TL072" H 8550 2974 50  0000 C CNN
-F 2 "Package_DIP:DIP-8_W7.62mm" H 8550 3250 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 8550 3250 50  0001 C CNN
-	1    8550 3250
+P 7150 3150
+F 0 "U3" H 7150 2783 50  0000 C CNN
+F 1 "TL072" H 7150 2874 50  0000 C CNN
+F 2 "Package_DIP:DIP-8_W7.62mm" H 7150 3150 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 7150 3150 50  0001 C CNN
+	1    7150 3150
 	1    0    0    1   
 $EndComp
 $Comp
@@ -1010,12 +1010,12 @@ Connection ~ 5300 5700
 $Comp
 L Amplifier_Operational:TL072 U3
 U 2 1 60D097BC
-P 7150 3150
-F 0 "U3" H 7100 2700 50  0000 C CNN
-F 1 "TL072" H 7100 2800 50  0000 C CNN
-F 2 "Package_DIP:DIP-8_W7.62mm" H 7150 3150 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 7150 3150 50  0001 C CNN
-	2    7150 3150
+P 8550 3250
+F 0 "U3" H 8500 2800 50  0000 C CNN
+F 1 "TL072" H 8500 2900 50  0000 C CNN
+F 2 "Package_DIP:DIP-8_W7.62mm" H 8550 3250 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 8550 3250 50  0001 C CNN
+	2    8550 3250
 	1    0    0    1   
 $EndComp
 Text Label 4850 6250 2    50   ~ 0
